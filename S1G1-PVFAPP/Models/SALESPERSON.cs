@@ -11,12 +11,10 @@ namespace S1G1_PVFAPP.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class SALESPERSON
     {
         public string SalespersonID { get; set; }
-        [StringLength(50), Display(Name = "Salesperson Name")]
         public string SalespersonName { get; set; }
         public string SalespersonTelephone { get; set; }
         public string SalespersonFax { get; set; }

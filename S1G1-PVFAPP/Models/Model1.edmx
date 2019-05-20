@@ -116,7 +116,7 @@ warning 6002: The table/view 'S1G1-PVFDB.dbo.HAS_SKILL' does not have a primary 
           <Property Name="VendorID" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="MaterialID" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="SupplyUnitPrice" Type="varchar" MaxLength="20" Nullable="false" />
-          <Property Name="SupplyID" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="SupplyID" Type="varchar" MaxLength="30" Nullable="false" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -601,7 +601,7 @@ warning 6002: The table/view 'S1G1-PVFDB.dbo.WORKSIN' does not have a primary ke
           <Property Name="VendorID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="MaterialID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="SupplyUnitPrice" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="SupplyID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SupplyID" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="RAWMATERIAL" Relationship="Self.FK_SUPPLIES_RAWMATERIAL" FromRole="SUPPLIES" ToRole="RAWMATERIAL" />
           <NavigationProperty Name="VENDOR" Relationship="Self.FK_SUPPLIES_VENDOR" FromRole="SUPPLIES" ToRole="VENDOR" />
         </EntityType>

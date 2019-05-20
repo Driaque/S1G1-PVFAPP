@@ -30,7 +30,7 @@ namespace S1G1_PVFAPP.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Description";
+            ViewBag.Message = "Descriptions";
 
             return View();
         }
